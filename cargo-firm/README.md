@@ -1,1 +1,1 @@
-This directory inclueds the files of the project cargo firm. 
+This directory includes the files of the project cargo firm. 
