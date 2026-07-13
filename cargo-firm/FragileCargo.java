@@ -8,7 +8,7 @@ public class FragileCargo extends Cargo {
 
     @Override
     public double calculatePrice() {
-        // Ağırlık ve mesafeye göre temel ücret hesaplanıp çarpan ve sigorta ekleniyor
+
         return (getWeight() * 1.2 + getDistanceKm() * 0.4) * SPECIAL_HANDLING_MULTIPLIER + INSURANCE_FEE;
     }
 }
